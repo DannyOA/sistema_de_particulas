@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-    background("#000000ff");
+    background("#000354ff");
 
 if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height){
     pelotas.push (new Pelota(mouseX, mouseY));

@@ -15,7 +15,7 @@ class Pelota {
     this.alphaDecay = random(2, 5); // cuán rápido se desvanece
 
     // colores con rangos válidos
-    this.nuevoColor = color(random(190, 250), random(10, 10), random(10, 5));
+    this.nuevoColor = color(random(200, 250), random(200, 250), random(10, 5));
   }
 
   actualizar() {
